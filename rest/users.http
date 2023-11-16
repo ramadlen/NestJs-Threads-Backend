@@ -1,0 +1,11 @@
+GET http://localhost:3000/pengguna HTTP/1.1
+
+###
+POST http://localhost:3000/pengguna HTTP/1.1
+content-type: application/json
+
+{
+   "text": "third comment",
+   "PenggunaId": "",
+   "parentId": ""
+}
